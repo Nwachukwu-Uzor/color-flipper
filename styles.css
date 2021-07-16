@@ -250,8 +250,10 @@ main {
 .github a:link,
 .github a:visited {
   background-color: transparent;
+  color: hsl(205, 86%, 17%);
 }
 
 i {
   font-size: 2em;
+  color: hsl(205, 86%, 17%);
 }

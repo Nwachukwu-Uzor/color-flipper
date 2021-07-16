@@ -1,6 +1,6 @@
 const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
 
-const container = document.querySelector(".container h2");
+const body = document.querySelector("body");
 const btn = document.querySelector("#btn");
 const color = document.querySelector(".color");
 
@@ -18,6 +18,6 @@ const generateRandomColor = () => {
 
 btn.addEventListener("click", () => {
   const randomColor = generateRandomColor();
-  container.style.backgroundColor = randomColor;
+  body.style.backgroundColor = randomColor;
   color.innerText = randomColor;
 });
