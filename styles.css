@@ -247,6 +247,12 @@ main {
   background: var(--clr-black);
 }
 
+.github a:link,
+.github a:visited {
+  background-color: transparent;
+  color: transparent;
+}
+
 i {
   font-size: 2em;
 }
