@@ -1,5 +1,5 @@
 // const colors = ["green", "red", "rgba(133,122,200)", "#f15025"];
-const body = document.querySelector("body");
+const bodyTag = document.querySelector("body");
 const btn = document.querySelector("#btn");
 const simpleColor = document.querySelector(".simple-color");
 
@@ -164,6 +164,6 @@ const generateRandomColor = (index) => {
 
 btn.addEventListener("click", () => {
   const randomColor = generateRandomColor(generateRandomNumber());
-  body.style.backgroundColor = randomColor;
+  bodyTag.style.backgroundColor = randomColor;
   simpleColor.innerText = randomColor;
 });
