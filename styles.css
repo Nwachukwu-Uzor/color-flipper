@@ -257,3 +257,7 @@ i {
   font-size: 2em;
   color: hsl(205, 86%, 17%);
 }
+
+.simple-color {
+  font-size: 1.5rem;
+}
